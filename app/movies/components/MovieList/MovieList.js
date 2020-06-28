@@ -39,9 +39,7 @@ const MovieList = props => {
         }
 
         return (
-            <Text style={styles.error}>
-                Network issue. please check connection
-            </Text>
+            <ActivityIndicator size="large" color="#0000ff" />
         )
 
 
